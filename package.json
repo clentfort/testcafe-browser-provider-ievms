@@ -1,0 +1,28 @@
+{
+  "name": "testcafe-browser-provider-ievms",
+  "version": "0.0.1",
+  "description": "testcafe-browser-ievms TestCafe browser provider plugin.",
+  "repository": "https://github.com/clentfort/testcafe-browser-provider-ievms",
+  "homepage": "https://github.com/clentfort/testcafe-browser-provider-ievms",
+  "author": {
+    "name": "Christian Lentfort",
+    "email": "christian@lentfort.com"
+  },
+  "main": "lib/index",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "yarn tsc"
+  },
+  "keywords": [
+    "testcafe",
+    "browser provider",
+    "plugin"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^2.6.2",
+    "@types/node": "^8.0.54"
+  }
+}
